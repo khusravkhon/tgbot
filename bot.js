@@ -1,7 +1,7 @@
 import { Telegraf, Markup } from 'telegraf';
 
 const token = '7843076796:AAF7k9Bvr_KuyeeRsAFpfZLh3VfEHIdjLBQ';
-const wedAppUrl = 'https://profile-two-ecru.vercel.app';
+const wedAppUrl = 'https://download-omega-orpin.vercel.app';
 
 const bot = new Telegraf(token);
 
