@@ -37,7 +37,7 @@ Follow these steps to set up and run the Telegram bot on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/telegram-video-downloader.git
+git clone https://github.com/khusravkhon/tgbot.git
 cd telegram-video-downloader
 ```
 ### 2.Install Dependencies
