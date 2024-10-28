@@ -51,6 +51,24 @@ npm install
 ```bash
 node bot.js
 ```
+Local Run Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/khusravkhon/tgbot.git
+cd telegram-video-downloader
+```
+
+### 2. Build
+```bash
+make build
+```
+
+### 3. Run
+```bash
+make run
+```
 
 ## Contact
 
