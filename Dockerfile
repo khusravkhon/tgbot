@@ -5,4 +5,4 @@ RUN npm ci
 COPY . .
 ENV PORT=3000
 EXPOSE $PORT
-CMD [ "node", "start" ]
+CMD [ "npm", "start" ]
