@@ -6,12 +6,15 @@ const wedAppUrl = 'https://download-omega-orpin.vercel.app';
 const bot = new Telegraf(token);
 
 bot.command('start', (ctx) => {
-    ctx.reply(`Запустить мини-приложение для загрузки видео ${ctx.payload}`, Markup.inlineKeyboard([
+    ctx.reply(`Запустить мини-приложение для загрузки видео по ссылке`, Markup.inlineKeyboard([
         Markup.button.webApp(
             `Запуск приложения`,
-            `${wedAppUrl}?user_id=${ctx.from?.id}&chat_id=${ctx.chat?.id}`
+            `${wedAppUrl}?user_id=${ctx.from.id}&chat_id=${ctx.chat.id}`
         )
     ]));
 });
 
 bot.launch();
+
+
+// https://api.telegram.org/bot7843076796:AAF7k9Bvr_KuyeeRsAFpfZLh3VfEHIdjLBQ/getUpdates 

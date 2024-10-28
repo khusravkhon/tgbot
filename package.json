@@ -5,7 +5,7 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node bot"
   },
   "keywords": [],
   "author": "",
