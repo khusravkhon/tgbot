@@ -9,7 +9,7 @@ bot.command('start', (ctx) => {
     ctx.reply(`Запустить мини-приложение для загрузки видео по ссылке`, Markup.inlineKeyboard([
         Markup.button.webApp(
             `Запуск приложения`,
-            `${wedAppUrl}?user_id=${ctx.from.id}&chat_id=${ctx.chat.id}`
+            `${wedAppUrl}?user_id=${ctx.from.id}&chat_id=${ctx.chat.id}&request_full_screen=true`
         )
     ]));
 });
