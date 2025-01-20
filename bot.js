@@ -1,6 +1,6 @@
 import { Telegraf, Markup } from 'telegraf';
 
-const token = '7843076796:AAF7k9Bvr_KuyeeRsAFpfZLh3VfEHIdjLBQ';
+const token = '7983814494:AAGziMOyblq_QGgt4SUIcX9Jdz2UktcCGdk';
 const wedAppUrl = 'https://download-lemon.vercel.app/';
 
 const bot = new Telegraf(token);
