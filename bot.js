@@ -20,5 +20,3 @@ bot.command("start", (ctx) => {
 });
 
 bot.launch();
-
-// https://api.telegram.org/bot7843076796:AAF7k9Bvr_KuyeeRsAFpfZLh3VfEHIdjLBQ/getUpdates
